@@ -4,12 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <title>Giphy Party!</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <h id="header">Giphy Party!</h1>
+
+  <form id="search-form">
+    <input type="text" id="search-input" placeholder="Search for a GIF">
+
+    <button type="submit" class="button-23" role="button">Search</button>
+      <button type="delete" class="button-24" role="button">Remove All Images</button>
+  </form>
+
+  <div id="gif-container"></div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="app.js"></script>
 </body>
 
